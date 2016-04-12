@@ -4,7 +4,7 @@ compute = function(input_string) {
   operator = values[2]
   num1 = as.integer(values[3])
   if (operator == 'x') {
-    return(num0+num1)
+    return(num0-num1)
   } else {
     print('unknown operator!')
     return(NA)
